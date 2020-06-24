@@ -14,7 +14,12 @@ INSERT INTO authors (name)
 ;
 
 INSERT INTO books (title, year, series_id)
-
+("Book A", 1999, 1)
+("Book B", 1999, 1)
+("Book C", 1999, 1)
+("Book D", 1999, 2)
+("Book E", 1999, 2)
+("Book F", 1999, 2)
 ;
 
 INSERT INTO character (name, motto, species, author_id)
