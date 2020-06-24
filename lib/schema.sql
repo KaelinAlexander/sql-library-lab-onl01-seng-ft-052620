@@ -10,8 +10,9 @@ CREATE TABLE sub_genres (
   name TEXT
 );
 
-CREATE TABLE  (
-  id PRIMARY KEY INTEGER
+CREATE TABLE authors (
+  id PRIMARY KEY INTEGER,
+  name TEXT,
 );
 
 CREATE TABLE  (
