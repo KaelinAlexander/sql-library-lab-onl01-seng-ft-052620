@@ -22,7 +22,7 @@ INSERT INTO books (title, year, series_id) VALUES
 ("Book F", 1999, 2)
 ;
 
-INSERT INTO character (name, motto, species, author_id) VALUES
+INSERT INTO characters (name, motto, species, author_id) VALUES
 ("Char A", "Motto A", "Species A", 1),
 ("Char B", "Motto B", "Species A", 1),
 ("Char C", "Motto C", "Species A", 1),
