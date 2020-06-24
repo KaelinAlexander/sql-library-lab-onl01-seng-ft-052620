@@ -1,4 +1,4 @@
-INSERT INTO series 
+INSERT INTO series
 
 INSERT INTO subgenres
 
