@@ -15,8 +15,10 @@ CREATE TABLE authors (
   name TEXT,
 );
 
-CREATE TABLE  (
-  id PRIMARY KEY INTEGER
+CREATE TABLE books (
+  id PRIMARY KEY INTEGER,
+  title TEXT,
+  
 );
 
 CREATE TABLE  (
