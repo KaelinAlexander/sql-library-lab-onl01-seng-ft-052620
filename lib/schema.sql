@@ -19,11 +19,15 @@ CREATE TABLE books (
   id PRIMARY KEY INTEGER,
   title TEXT,
   year INTEGER,
-  series_id TEXT
+  series_id INTEGER
 );
 
-CREATE TABLE  (
+CREATE TABLE characters (
   id PRIMARY KEY INTEGER
+  name TEXT,
+  motto TEXT,
+  species TEXT,
+  author_id INTEGER
 );
 
 CREATE TABLE  (
