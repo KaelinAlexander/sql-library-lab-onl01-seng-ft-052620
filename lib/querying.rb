@@ -8,14 +8,14 @@ end
 def select_name_and_motto_of_char_with_longest_motto
   "SELECT characters.name, characters.motto
   FROM characters
-  COUNT(characters.motto) AS motto_length
+  LEN(characters.motto) AS motto_length
   GROUP BY motto_length DESC
   LIMIT 1;"
 end
 
 
 def select_value_and_count_of_most_prolific_species
-  "Write your SQL query here"
+  "SELECT character.species, COUNT(character.species) your SQL query here"
 end
 
 def select_name_and_series_subgenres_of_authors
