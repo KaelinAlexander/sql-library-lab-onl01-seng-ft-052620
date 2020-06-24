@@ -1,19 +1,20 @@
-INSERT INTO series
+INSERT INTO series (title, author_id, subgenre_id) VALUES
+("Series A", 1, 1)
+("Series B", 2, 2)
+;
+
+INSERT INTO subgenres (name)
 
 ;
 
-INSERT INTO subgenres
+INSERT INTO authors (name)
 
 ;
 
-INSERT INTO authors
+INSERT INTO books (title, year, series_id)
 
 ;
 
-INSERT INTO books
-
-;
-
-INSERT INTO character
+INSERT INTO character (name, motto, species, author_id)
 
 ;
