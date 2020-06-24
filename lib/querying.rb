@@ -8,8 +8,7 @@ end
 def select_name_and_motto_of_char_with_longest_motto
   "SELECT characters.name, characters.motto, DATALENGTH(characters.motto) AS motto_length
   FROM characters
-  GROUP BY motto_length DESC
-  LIMIT 1;"
+  GROUP BY motto_length DESC LIMIT 1;"
 end
 
 
